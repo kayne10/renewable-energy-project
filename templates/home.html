@@ -1,0 +1,186 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<!-- Landing section -->
+<section class="intro">
+
+    <header class="landing-header">
+        <h1>The Renewable Future</h1>
+        <p>Leave the hard work to the experts</p>
+        <a class="discover" href="#About">
+        <i class="fa fa-angle-double-down"></i>
+        </a>
+    </header>
+    
+</section>
+
+<!-- About section -->
+<section id="About" class="carousel slide" data-ride="carousel">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">The Renewable Future</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li> -->
+            <li class="nav-item">
+                    <a class="nav-link" href="/#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="/#About">About</a>
+                </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-success btn-small" href="/contribute">Contribute</a>
+            </li>
+        </ul>
+        <!-- <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+        </div>
+    </nav>
+
+    <!-- carousel -->
+    <ol class="carousel-indicators">
+        <li data-target="#About" data-slide-to="0" class="active"></li>
+        <li data-target="#About" data-slide-to="1"></li>
+        <li data-target="#About" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="/static/img/solar-panel-teamwork.jpg" class="img-responsive carousel-img" height="100%" width="100%" alt="">
+        <div class="container">
+        <div class="carousel-caption text-left">
+            <h1>Community Based Projects</h1>
+            <p>We strive to uplift communities by incentivizing the development of clean energy projects the
+            responsible way. You can help contribute to community-based projects.</p>
+            <p><a class="btn btn-lg btn-primary" href="/contribute" role="button">Contribute</a></p>
+        </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="/static/img/wind-farm.jpg" class="img-responsive carousel-img" height="100%" width="100%" alt="">
+        <div class="container">
+        <div class="carousel-caption text-left">
+            <h1>Landowner Economics</h1>
+            <p>We have a unique perspective that the Landowners deserve the credit &amp; financial incentives for
+            creating a Renewable Future, not the big banks, big tech, or big developers who are all
+            incentivized to negotiate against the Landowner, while taking all the glory.</p>
+            <p>
+            <!-- <a class="btn btn-lg btn-primary" href="#" role="button">Invest</a></p> -->
+        </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="/static/img/water.jpg" class="img-responsive carousel-img" height="100%" width="100%" alt="">
+        <div class="container">
+        <div class="carousel-caption text-left">
+            <h1>Contribute to Sustainability</h1>
+            <p>We believe in our corporate and social responsibility to maintain and sustain Earths natural
+            Environment. Reducing carbon emissions from personal energy use is a crucial way to reduce
+            mans impact on Earths precious Habitats.</p>
+            <p>
+            <!-- <a class="btn btn-lg btn-primary" href="#" role="button">Invest</a></p> -->
+        </div>
+        </div>
+    </div>
+    </div>
+    <a class="carousel-control-prev" href="#About" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#About" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a>
+</section>
+    
+    
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    
+    <section class="container marketing">
+        <br>
+        <br>
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+        <div class="col-lg-4">
+            <i class="fa fa-solar-panel" style="font-size: 10em;"></i>
+            <h2>Solar</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <i class="fa fa-wind" style="font-size: 10em;"></i>
+            <h2>Wind</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <i class="fa fa-globe-americas" style="font-size: 10em;"></i>
+            <h2>Impact</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    
+    </section><!-- /.container -->
+
+    <section id="projects" class="container projects">
+
+    </section>
+
+    <section id="projects-table" class="container projects-table">
+        <h1 style="text-align: left;">Projects</h1>
+        <br>
+        <br>
+        <table class="table">
+            <thead>
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">Project Name</th>
+                <th scope="col">Project Type</th>
+                <th scope="col">Project Size</th>
+                <th scope="col">Project State</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Lone star #1</td>
+                    <td>Solar</td>
+                    <td>10 MW</td>
+                    <td>Texas</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Cowboy #1</td>
+                    <td>Wind</td>
+                    <td>50 MW</td>
+                    <td>Wyoming</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Columbine #1</td>
+                    <td>Solar</td>
+                    <td>10 MW</td>
+                    <td>Colorado</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Sunshine #1</td>
+                    <td>Solar</td>
+                    <td>10 MW</td>
+                    <td>California</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+{% endblock %}
